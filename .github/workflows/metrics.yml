@@ -159,3 +159,14 @@ jobs:
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
           plugin_stargazers_worldmap_sample: 200
 
+  comment_reactions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 200
+          plugin_reactions_details: percentage
