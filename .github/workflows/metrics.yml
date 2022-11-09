@@ -165,7 +165,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.reactions.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_SECRET }}
           base: ""
           plugin_reactions: yes
           plugin_reactions_limit: 200
