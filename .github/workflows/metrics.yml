@@ -41,6 +41,8 @@ jobs:
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           base_indepth: yes
+          repositories: 200
+          repositories_affiliations: collaborator
   lines:
     runs-on: ubuntu-latest
     steps:
