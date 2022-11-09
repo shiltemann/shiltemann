@@ -40,6 +40,8 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+          repositories_affiliations: [owner, collaborator, organization_member]
+          repositories_forks: yes
   lines:
     runs-on: ubuntu-latest
     steps:
