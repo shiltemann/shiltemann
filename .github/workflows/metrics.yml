@@ -40,6 +40,7 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+          base_indepth: yes
   lines:
     runs-on: ubuntu-latest
     steps:
