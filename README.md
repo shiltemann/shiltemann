@@ -29,7 +29,7 @@
 </a>
 
 <a href="https://github.com/shiltemann">
-    <img align="center" width="49%" src="./metrics.plugin.stargazers.worldmap.svg" />
+    <img align="center" width="49%" src="./metrics.plugin.reactions.svg" />
 </a>
 
 
