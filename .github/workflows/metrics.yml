@@ -145,28 +145,28 @@ jobs:
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  stargazer_worldmap:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.stargazers.worldmap.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          base: ""
-          plugin_stargazers: yes
-          plugin_stargazers_charts: no
-          plugin_stargazers_worldmap: yes
-          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
-          plugin_stargazers_worldmap_sample: 200
+#  stargazer_worldmap:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: lowlighter/metrics@latest
+#        with:
+#          filename: metrics.plugin.stargazers.worldmap.svg
+#          token: ${{ secrets.METRICS_SECRET }}
+#          base: ""
+#          plugin_stargazers: yes
+#          plugin_stargazers_charts: no
+#          plugin_stargazers_worldmap: yes
+#          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
+#          plugin_stargazers_worldmap_sample: 200
 
-  comment_reactions:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.reactions.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          base: ""
-          plugin_reactions: yes
-          plugin_reactions_limit: 200
-          plugin_reactions_details: percentage
+#  comment_reactions:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: lowlighter/metrics@latest
+#        with:
+#          filename: metrics.plugin.reactions.svg
+#          token: ${{ secrets.METRICS_SECRET }}
+#          base: ""
+#          plugin_reactions: yes
+#          plugin_reactions_limit: 200
+#          plugin_reactions_details: percentage

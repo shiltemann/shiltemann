@@ -17,21 +17,27 @@
     <img align="center" width="49%" src="./issue_pr_lang.svg" />
 </a>
 
-<a href="https://github.com/shiltemann">
-    <img align="top" width="49%" src="./achievements.svg" />
-</a>
 
+
+<!--
 <a href="https://github.com/shiltemann">
     <img align="right" width="47%" src="./metrics.plugin.reactions.svg" />
 </a>
+-->
 
 <a href="https://github.com/shiltemann">
   <img align="center" width="49%" src="./github-habits.svg" />
 </a>
 
+
+<a href="https://github.com/shiltemann">
+    <img align="top" width="49%" src="./achievements.svg" />
+</a>
+
+<!--
 <a href="https://github.com/shiltemann">
     <img align="center" width="49%" src="./metrics.plugin.stargazers.worldmap.svg" />
 </a>
-
+-->
 
 
